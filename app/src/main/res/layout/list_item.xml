@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/titleLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Название метки"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/coordinatesLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Координаты"/>
+</LinearLayout>
